@@ -4,15 +4,24 @@
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="main.css">
 	<script src="script.js"></script>
-	<style> .shootingstars{overflow: hidden;}</style>
+/*<!-- 	<style> .shootingstars{overflow: hidden;}</style> -->*/
 
 </head>
 <body>
-	
-<div id="seat-pages">
-		<header>WELCOME TO OUR MOVIE THEATRE *FANCY TEXT*</header>
-	<h2> please pick your seat!</h2>
+	<div class="shootingStars">
+								<div class="shootingStar"></div>
+								<div class="shootingStar"></div>
+								<div class="shootingStar"></div>
+								<div class="shootingStar"></div>
+								<div class="shootingStar"></div>
+								<div class="shootingStar"></div>
+						</div>
 
+	<!-- END USER SEAT RESERVATION -->	
+<div id="seat-pages">
+		<header>The Void Theatre</header>
+	<h2> Please select your seat!</h2>
+<div id="screen"> </div>
 
 	<div id="theatre">
 		<div id="row1" class="row">
@@ -40,27 +49,19 @@
       <p>Your selection: <span id="selectedSeat"></span></p>
       <input type="text" id="userName" placeholder="Your Name"/>
       <input type="email" id="userEmail" placeholder="Your E-mail"/>
+     	<div id="buttonwrapper">
       <button type="button" id="submitButton">submit</button>
       <button type="button" id="clearButton">clear</button>
+  </div>
     </form>
   </div>
 
-  <div class="shootingStars">
-								<div class="shootingStar"></div>
-								<div class="shootingStar"></div>
-								<div class="shootingStar"></div>
-								<div class="shootingStar"></div>
-								<div class="shootingStar"></div>
-								<div class="shootingStar"></div>
-						</div>
-	<!-- END USER SEAT RESERVATION -->
+  
 
 		<script src="lib/jquery-1.11.1.js"></script>
 	<script src="script.js"></script>
 	<link rel="stylesheet" href="shootingstars.css"/>
 
-
-<footer> La La La </footer>
 
 </body>
 </html>

@@ -1,15 +1,31 @@
+@font-face {
+    font-family: titillium;
+    src: url(fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
 Body{
-  background-image:url("background.jpg");
+  background-image:url("images/lower.jpg");
   background-color: black;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size:cover;
   background-position:center;
   width:100%;
   Height:600px;
 }
 
+#screen{width:40%;
+background-color: gray;
+padding:2px;
+height:2%;
+margin:3% auto 1% auto;
+border-radius:10px;}
+
 #theatre{
 width:90%;
+ margin-top: 3%;
+ margin-left:auto;
+ margin-right:auto;
+ background-color:rgba(0,0,0,0.2);
+
 }
 
 .row{position:block;
@@ -24,30 +40,61 @@ width:90%;
 .seat {
   background-color: #ffffff;
   opacity: 0.5;
-  /*color: black;*/
+  color: black;
   margin-left: 11px;
   width: 5%;
   display: inline-block;
   padding:2%;
   border-radius:10px;
   text-align: center;
+  font-family:monospace;
+  font-weight: bold;
+  font-size: 18px;
+
+
 }
+
 
 /*//// FORM STYLE BELOW ////*/
 form {
   padding: 1%;
   font-family: monospace;
+  background-color: rgba(255,255,255,0.6);
+width:90%;
+/*border:solid;*/
+margin: auto;
+border-radius: 5px;
 }
 
 input {
   display: block;
   padding: 1%;
   margin: 1%;
+  width:50%;
+  margin-left: auto;
+margin-right: auto;
+
 }
 
-#submitButton {
-  margin: 1%;
+#formWrapper{width:40%;
+margin-left: auto;
+margin-right: auto;
+padding:1%;}
+
+p{text-align: center;
+padding-bottom: 10px;
+font-size: 1.5em;
 }
+button{
+ /* margin-left: auto;
+margin-right; */}
+#buttonwrapper{width:63%;
+  margin-left: auto;
+margin-right;}
+
+/*#submitButton {
+  margin: 1%;
+}*/
 
 .taken {
   background-color: #827676;
@@ -66,73 +113,6 @@ input {
   font-weight: bold;
 }
 
-/*//// FORM STYLE END ////*/
-
-
-/*new code - amanda - splash page etc*/
-
-#page-one{width:100%;}
-
-.fullscreen-bg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: 1;
-    opacity: 1;
-}
-
-.fullscreen-bg__video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: auto;
-    height: auto;
-    min-width: 100%;
-    min-height: 100%;
-    -webkit-transform: translate(-50%, -50%);
-       -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-}
-
-@media (max-width: 767px) {
-    .fullscreen-bg {
-        background: url(me.jpg) center center no-repeat;
-       position: absolute;
-    top: 50%;
-    left: 50%;
-    width: auto;
-    height: auto;
-    min-width: 100%;
-    min-height: 100%;
-    -webkit-transform: translate(-50%, -50%);
-       -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-    }
-
-    .fullscreen-bg__video {
-        display: none;
-    }}
-
-
-#title{position:relative;
-  display:block;
-  padding:30px;
-  font-size:100px;
-  width:90%;
-  margin-top:10%;
-/*    margin-left:2%;*/
-margin-left: auto;
-margin-right: auto;
-text-align: center;
-color:white;
-z-index: 2;
-font-family: 'Russo One', sans-serif;
-}
 
 #hideButton {
     background-color: white;
@@ -165,5 +145,16 @@ font-family: 'Russo One', sans-serif;
 }*/}
 
 header{
-font-family: 'Russo One', sans-serif;
+color:white;
+font-size:60px;
+
+text-align: center;
+   font-family: titillium;
 }
+
+h2{color:white;
+font-size:30px;
+margin-top: 1%;
+
+text-align: center;
+   font-family: titillium;}

@@ -102,9 +102,10 @@ $(".seat").click(function(){
          seatsSelected.splice(0, seatsSelected.length);
 
          //prints user name to seats (NOT WORKING!!!)
-         userInfo.forEach(function(person){
-            $highlightedSeats.text(person.name);
-         });
+         // userInfo.forEach(function(person){
+         //    $highlightedSeats.text(person.name);
+         // });
+        alert("Thanks for your Reservation - see you soon");
       }
     }
 
