@@ -74,7 +74,7 @@ $(".seat").on("click", function(){
       var userEmail = $("#userEmail").val();
 
       if (userName===""||userEmail===""){
-          alert("Please enter a valid name and email.");
+        alert("Please enter a valid name and email.");
       }
       else {
         userInfo.push(
