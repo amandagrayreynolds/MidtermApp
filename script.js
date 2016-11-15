@@ -105,7 +105,7 @@ $(".seat").click(function(){
          // userInfo.forEach(function(person){
          //    $highlightedSeats.text(person.name);
          // });
-        alert("Thanks for your Reservation - see you soon");
+        alert("Thanks for your reservation. See you soon!");
       }
     }
 
@@ -131,6 +131,6 @@ $("#image").mouseover(function () {
 });
 $("#image").mouseout(function () {
     this.src= "images/enterthevoid.svg";
-}); 
+});
 
 });
