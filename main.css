@@ -12,6 +12,13 @@ body {
   width: 100%;
 }
 
+#top-title{
+  margin-top: 1%;
+  width:50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 #screen {
   width: 40%;
   background-color: gray;
@@ -67,7 +74,7 @@ form {
 
 input {
   display: block;
-  padding: 1%;
+  padding: 2%;
   margin: 1%;
   width: 50%;
   margin: auto;
@@ -123,7 +130,7 @@ p {
     margin-left: 40%;
 }
 
-header {
+/*header {
   color: white;
   font-size: 60px;
   text-align: center;
@@ -136,4 +143,4 @@ h2 {
   margin-top: 1%;
   text-align: center;
   font-family: titillium;
-}
+}*/

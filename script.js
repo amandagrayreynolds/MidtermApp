@@ -125,6 +125,12 @@ $(".seat").click(function(){
     }
   });
   /*//// FORM SCRIPT END ////*/
-  
+//splashpage image
+$("#image").mouseover(function () {
+   this.src= "images/enterthevoid-top.svg";
+});
+$("#image").mouseout(function () {
+    this.src= "images/enterthevoid.svg";
+}); 
 
 });
