@@ -19,14 +19,23 @@ body {
   margin-left: auto;
 }
 
-#screen {
+#screenImg {
+  width: 50%;
+  padding: 2%;
+  margin-top: 2%;
+  margin-left: 24%;
+  margin-right: 23%;
+  opacity: 0.5;
+}
+
+/*#screen {
   width: 40%;
   background-color: gray;
   padding: 2px;
   height: 2%;
   margin: 3% auto 1% auto;
   border-radius: 10px;
-}
+}*/
 
 #theatre {
   width: 90%;
