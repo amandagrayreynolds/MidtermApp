@@ -41,8 +41,6 @@ $(".seat").click(function(){
   $("#formWrapper").slideDown();
 });
 
-
-
   /*//// FORM SCRIPT ////*/
   $("#reservationForm").hide();
 
@@ -54,8 +52,8 @@ $(".seat").click(function(){
     var $highlightedSeats = $(this);
     var $selectedId = $(this).attr("id");
 
-    if ($(this).attr("class")==="seat taken"){
-      alert("This seat is taken!");
+    if ($(this).attr("class")==="row seat taken"){
+      alert("This seat is taken! Please choose an open seat.");
     }
 
     else {
